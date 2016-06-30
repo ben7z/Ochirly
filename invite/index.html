@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="zh-cn" class="no-js">
+	<head>
+		<meta http-equiv="Content-Type">
+		<meta content="text/html; charset=utf-8">
+		<meta charset="utf-8">
+		<meta HTTP-EQUIV="pragma" CONTENT="no-cache">
+		<meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate">
+		<meta HTTP-EQUIV="expires" CONTENT="0">
+		<title>ochirly 2016 销售年会邀请函</title>
+		<meta name="description" content="归零 · 再出发">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="format-detection" content="email=no">
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/animate.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/animations.css" />
+		<script type="text/javascript" charset="utf-8" src="edge_includes/edge.6.0.0.min.js"></script>
+		<style>
+			.edgeLoad-EDGE-29706186 { visibility:hidden; }
+		</style>
+
+		<script>
+		   AdobeEdge.loadComposition('index', 'EDGE-29706186', {
+			scaleToFit: "width",
+			centerStage: "horizontal",
+			minW: "0px",
+			maxW: "undefined",
+			width: "640px",
+			height: "1050px"
+		}, {dom: [ ]}, {dom: [ ]});
+		</script>
+		
+		<script type="text/javascript">
+		if(/Android (\d+\.\d+)/.test(navigator.userAgent)){
+		  var version = parseFloat(RegExp.$1);
+		  if(version>2.3){
+			var phoneScale = parseInt(window.screen.width)/640;
+			document.write('<meta name="viewport" content="width=640, minimum-scale = '+ phoneScale +', maximum-scale = '+ phoneScale +', target-densitydpi=device-dpi">');
+		  }else{
+			document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+		  }
+		}else{
+		  document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+		}
+		//微信去掉下方刷新栏
+		if(navigator.userAgent.indexOf('MicroMessenger') >= 0){
+		  document.addEventListener('WeixinJSBridgeReady', function() {
+			//WeixinJSBridge.call('hideToolbar');
+		  });
+		}
+		</script>
+		
+		<script type="text/javascript"> 
+			window.onload=function(){ 
+			var a = document.getElementById("loading"); 
+			a.parentNode.removeChild(a); 
+			} 
+			document.write('<div id="loading" style="background:#000;width:100%;height:100%;position:absolute;text-align:center;padding-top:500px;z-index:9999;"><img src="images/preloader2.gif"></div>'); 
+		</script> 
+	
+	</head>
+	<body style="margin:0;padding:0;">
+	<div id="wx_logo" style="margin:0 auto;display:none;">
+		<img src="favicon.jpg" />
+	</div>
+	<div class="fn-audio">
+	  <div class="btn">
+	      <p class="btn_audio"><span class='css_sprite01 audio_open' style="display: inline-block;"></span><span class='css_sprite01 audio_close' style="display: none;"></span></p>
+	      <audio id="car_audio" autoplay="autoplay" controls="controls" preload="auto" loop="loop" src="music.mp3"></audio>
+	  </div>
+	</div>
+	<div class="page page-1-1 page-current" id="page1">
+
+		<div id="Stage" class="EDGE-29706186"></div>
+		<div class="wrap">
+			<div id="btn1" href="javascript:;"></div>
+			<div id="btn2" href="javascript:;"></div>
+			<img id="iconup" class="animated infinite fadeInUp" src="images/icon_up.png" />
+		</div>
+
+	</div>
+	
+	<div class="page page-2-1 hide" id="page2">
+		
+		<div class="wrap">
+			<img id="iconup" class="animated infinite fadeInUp" src="images/icon_up.png" />
+			<img id="title" src="images/2_title.png">
+			<img id="text1" src="images/text1.png" class="animated fadeInUp">
+			<img id="text2" src="images/text2.png" class="animated fadeInUp">
+			<img id="light2" src="images/2_light.png">
+			<img id="text3" src="images/text3.png" class="animated fadeInUp">
+		</div>
+			
+	</div>
+	<div class="page page-3-1 hide" id="page3">
+	
+		<div class="wrap">
+			<img id="light3" src="images/3_light.png">
+			<img id="text4" src="images/text4.png" class="animated fadeInUp">
+			<img id="text5" src="images/text5.png" class="animated fadeInUp">
+			<img id="text6" src="images/text6.png" class="animated fadeInUp">
+			<img id="iconup" class="animated infinite fadeInUp" src="images/icon_up.png" />
+		</div>
+		
+	</div>
+	
+    <script src="js/zepto.min.js"></script>
+	<script src="js/touch.js"></script>
+	<script src="js/index.js"></script>
+	<script>
+		$('#title').addClass('animated pulse');
+		$('#light2').addClass('animated pulse');
+		$('#light3').addClass('animated tada');
+	</script>
+	<style>
+		#title {
+		  -webkit-animation-duration: 8s;
+		  -webkit-animation-delay: 1s;
+		  -webkit-animation-iteration-count: infinite;
+		}
+		#light2 {
+		  -webkit-animation-duration: 10s;
+		  -webkit-animation-delay: 1s;
+		  -webkit-animation-iteration-count: infinite;
+		}
+		#light3 {
+		  -webkit-animation-duration: 50s;
+		  -webkit-animation-delay: 0.5s;
+		  -webkit-animation-iteration-count: infinite;
+		}
+	</style>
+	<script type="text/javascript">
+	/** 声音功能的控制*/
+	var audio_switch_btn = true;         //声音开关控制值
+
+	//页面声音播放
+	$(function(){
+		//获取声音元件
+		var btn_au = $(".fn-audio").find(".btn");
+		//绑定点击事件
+		btn_au.on('click',audio_switch);
+		function audio_switch(){
+			if($("#car_audio") == undefined){
+				return;
+			}
+			if(audio_switch_btn){
+				//关闭声音
+				$("#car_audio")[0].pause();
+				audio_switch_btn = false;
+				$("#car_audio")[0].currentTime = 0;
+				btn_au.find("span").eq(0).css("display","none");
+				btn_au.find("span").eq(1).css("display","inline-block");
+			}
+			//开启声音
+			else{
+				$("#car_audio")[0].play();
+				audio_switch_btn = true;
+				btn_au.find("span").eq(1).css("display","none");
+				btn_au.find("span").eq(0).css("display","inline-block");
+			}
+		}
+	});
+	</script>
+	<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+	<script>
+    // http://mp.weixin.qq.com/wiki/7/aaa137b55fb2e0456bf8dd9148dd613f.html
+    // 通过config接口注入权限验证配置后, 在 ready 中 play 一下 audio
+    function autoPlayAudio1() {
+        wx.config({
+            // 配置信息, 即使不正确也能使用 wx.ready
+            debug: false,
+            appId: 'wx2d507551068e206a',
+            timestamp: 1,
+            nonceStr: '',
+            signature: '',
+            jsApiList: []
+        });
+        wx.ready(function() {
+            document.getElementById('car_audio').play();
+        });
+    }
+    autoPlayAudio1(); // 推荐使用方法1
+    </script>
+</html>
